@@ -1,1 +1,1 @@
-consile.log("Hey it's Labhesh")
+console.log("Hey it's Labhesh")
