@@ -4,7 +4,7 @@ pipeline {
   stages {
     stage('Git Clone Repository') {
         steps {
-           git branch: 'main', url: 'https://github.com/LabhWins/Assignment3.git'
+           git branch: 'main', url: 'https://github.com/aksyntax/Jenkinsfile.git'
         }
     }
     stage('Publish HTML') {
