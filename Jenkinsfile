@@ -9,7 +9,7 @@ pipeline {
     }
     stage('Publish HTML') {
         steps {
-            publicHTML(target: [
+            publishHTML(target: [
                 reportName            : 'HTML Page',
                 reportDir             :  '.',
                 reportFiles           : 'index.html',
